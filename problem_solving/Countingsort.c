@@ -7,6 +7,11 @@ int* countingSort(int arr_count, int* arr, int* result_count)
         first: creat loop to calculate the maximum number in the array
         seconde: creat another array, ant calculate frq of each element
         third: 
+        
+
+
+        Note: this counting sort only used with numbers only
+        
     */
     *result_count = arr_count;   
     int _ORDER_OF_ELEMENT_IN_ORIGINAL_ARRAY_ = 0;
